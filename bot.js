@@ -16,10 +16,22 @@ client.on('messageCreate', async message=> {
     
     else if(command === 'help')
         await message.channel.send('!help: Bot help\n!play: Play tracks or playlists\n!pause: Pause track\n!skip: Skip track\n!queue: Tracks queue\n!clear: Clear queue\n!voteskip: Vote to skip\n!ping: Bot ping\n!disconect: Disconect bot')
+
+    else if(command === ''){
+
+    }
 })
 
 client.once('ready', () => {
     console.log(`[bot] starting bot dependencies\n[bot] id: ${client.user.id}\n[bot] logged in as ${client.user.tag}`)
+})
+
+client.once('reconnecting', () => {
+    console.log('[bot] reconnecting')
+})
+
+client.once('disconnect', () => {
+    console.log('[bot] disconnected')
 })
 
 client.login(config.token)

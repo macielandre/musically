@@ -22,8 +22,10 @@ Discord music bot
 - nodemon
 
 > Setup for config.json
-- Prefix: Your discord bot prefix
-- Token: Your discord bot token
+```JSON
+"prefix": "!"
+"token": "your_token"
+```
 
 > Running the project
 - Create a discord app: https://discord.com/developers/applications
