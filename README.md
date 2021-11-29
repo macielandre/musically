@@ -1,25 +1,31 @@
-# Musically
-Discord music bot
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+## About Musically
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+Discord music bot!
 
 > Music from
-- Spotify
-- Deezer
+* Spotify
+* Deezer
 
 > Features
-- Play track
-- Pause track
-- Skip track
-- Play a playlist
-- Tracks queue
-- Clear queue
-- Vote to skip
-- Bot help
-- Bot ping
-- Disconect bot
+* Play track
+* Pause track
+* Skip track
+* Play a playlist
+* Tracks queue
+* Clear queue
+* Vote to skip
+* Bot help
+* Bot ping
+* Disconect bot
 
 > Dependencies
-- discord.js
-- nodemon
+* [discord.js](https://discord.js.org/#/)
+* [nodemon](https://www.npmjs.com/package/nodemon)
+* [ytdl-core](https://www.npmjs.com/package/ytdl-core)
 
 > Setup for config.json
 ```JSON
